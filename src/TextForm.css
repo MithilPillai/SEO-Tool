@@ -1,0 +1,51 @@
+/* Existing styles will be kept, and only new or modified styles are shown here */
+
+/* Flex container for cards */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Add some space between cards */
+}
+
+/* Clear button below the cards */
+.clear-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed to give space from the cards */
+}
+
+/* Circular box for number of items */
+.item-count {
+    display: inline-block;
+    width: 40px; /* Size of the circle */
+    height: 40px; /* Size of the circle */
+    line-height: 40px; /* Center the text vertically */
+    border-radius: 50%; /* Make it circular */
+    background-color: hsl(135, 97%, 57%); /* Color from your branding */
+    color: #FFFFFF; /* For contrast */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+/* TextForm.css */
+
+  .link-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap as needed */
+    justify-content: center; /* Center cards in the container */
+    margin-bottom: 20px; /* Space before the clear button */
+  }
+  
+  .clear-button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    /* Add more styling according to your design */
+  }
+  

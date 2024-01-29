@@ -1,4 +1,5 @@
 import React from "react";
+import "../NavBar.css"
 import PropTypes from "prop-types";
 
 export default function Navbar(props) {

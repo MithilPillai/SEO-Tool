@@ -1,0 +1,92 @@
+
+
+   /* Updated LinkCard.css */
+
+   .card-container {
+    display: flex;
+    margin: auto;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    margin: 10px;
+    padding: 20px;
+    width: 20rem;
+    height: 16rem;
+    box-shadow: 0 4px 8px #0000001a;
+    transition: transform 0.2s ease-in-out;
+    background-color:black;
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card.expanded {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #FC29FB; /* Color from the "BRANDING & DESIGN" text */
+}
+
+.btn-secondary {
+    background-color: #FC29FB; /* Color from the "BRANDING & DESIGN" text */
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #BA22A9; /* A darker shade for hover effect */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Assuming you have a percentage element, hide it */
+.percentage {
+    display: none;
+}
+
+/* Styling for the number of items, if you have a specific class for it */
+.item-count {
+    font-size: 2rem; /* Larger font size for emphasis */
+    font-weight: bold; /* Make the number bold */
+}
+
+.cards-container {
+    display: flex;
+    justify-content: flex-start; /* Adjust as needed */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+    gap: 85px; /* Adjust as needed to add space between cards */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  .scrollable-content {
+    max-height: 300px; /* Set the maximum height for the card container */
+    overflow-y: auto; /* Add vertical scrollbar when content overflows */
+  }
+
+
+  .card.expanded {
+    transform: scale(1.05);
+    max-height: 300px; /* Set the maximum height when expanded */
+    overflow-y: auto;
+    overflow-x: auto; /* Enable vertical scrolling */
+    margin-bottom: 10px; /* Add some space between content and border */
+  }
+
+  

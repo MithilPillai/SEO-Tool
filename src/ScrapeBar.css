@@ -1,0 +1,54 @@
+.btn-analyze {
+    background-color:black; /* Primary color for the button */
+    color:  #FC29FB; /* Text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for color change */
+  
+    /* Add any other styles you want */
+  }
+
+
+  .btn-analyze:hover {
+    background-color: #00b303; /* Darker shade for the hover effect */
+    /* You can adjust other styles for the hover state if needed */
+  }
+  
+  .btn-analyze:disabled {
+    background-color: #b3b3b3; /* Disabled state color */
+    cursor: not-allowed;
+    /* You can adjust other styles for the disabled state if needed */
+  }
+
+  .d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .form-control {
+    width: 500px; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+  }
+
+
+  .btn-clear{
+    background-color: black; /* Primary color for the button */
+    color: #FC29FB; /* Text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for color change */
+    margin-left: 20px;
+    
+  }
+
+
+  .btn-clear:hover {
+    background-color: hsl(357, 100%, 35%);
+    color: black; /* Darker shade for the hover effect */
+    /* You can adjust other styles for the hover state if needed */
+  }

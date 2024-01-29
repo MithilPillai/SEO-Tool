@@ -1,0 +1,24 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: pink; /* Set your desired background color */
+  }
+  
+  .navbar-brand {
+    color:#ffffff; /* Set text color for the brand */
+    font-size: 1.5rem; /* Set font size for the brand */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* Set color for the toggler icon */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Set text color for the nav links */
+    margin-right: 10px; /* Adjust margin between nav links */
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold; /* Set style for the active nav link */
+  }
+  
