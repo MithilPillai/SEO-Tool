@@ -1,0 +1,8 @@
+Google page speed api :
+AIzaSyAUOoXZkYKSB5PRRdfD4AqUUI4N8FDKWrA
+
+Moz Access ID:
+mozscape-ff795e92f1
+
+Moz Secret Key:
+c750aa30ac76be2a5cd90e6b58a0b0ae
